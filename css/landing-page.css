@@ -15,6 +15,11 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
+.centered-img {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -46,8 +51,10 @@ header.masthead {
   padding: 3rem; }
 
 .showcase .showcase-img {
-    min-height: 15rem;
-  background-size: cover; }
+  min-height: 30rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 @media (min-width: 768px) {
   .showcase .showcase-text {
