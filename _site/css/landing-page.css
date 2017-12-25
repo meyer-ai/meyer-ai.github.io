@@ -46,7 +46,7 @@ header.masthead {
   padding: 3rem; }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+    min-height: 15rem;
   background-size: cover; }
 
 @media (min-width: 768px) {
